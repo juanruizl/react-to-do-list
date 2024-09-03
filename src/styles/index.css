@@ -1,12 +1,49 @@
+.container {
+    max-width: 600px;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-/* 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #343a40;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.d-flex.justify-content-between.mb-3 {
+    font-size: 18px;
+}
 
-*/
+input {
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    outline: none;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.list-group-item {
+    background-color: #fff3cd; /* Color de fondo de las tareas */
+    border: none;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item .btn {
+    background-color: transparent;
+    border: none;
+    color: #dc3545; /* Color de la papelera */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.list-group-item .btn:hover {
+    color: #c82333;
+}
